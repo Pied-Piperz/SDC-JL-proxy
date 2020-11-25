@@ -42,28 +42,28 @@
 
 module.exports = {
   service1: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3001',
+    api: '/nav',
+    url: 'http://3.129.67.236:3001/',
     bundle: 'bundle.js',
   },
   service2: {
     api: '/items',
-    url: 'http://localhost:3002',
+    url: 'http://18.144.22.236:3002/',
     bundle: 'bundle.js',
   },
   service3: {
     api: '/q&a',
-    url: 'http://localhost:3003',
+    url: 'http://18.188.192.60:3003/',
     bundle: 'bundle.js',
   },
   service4: {
     api: '/games',
-    url: 'http://localhost:3004',
+    url: 'http://3.16.109.45:3004/',
     bundle: 'bundle.js',
   },
   service5: {
     api: '/products',
-    url: 'http://localhost:3005',
+    url: 'http://18.188.253.132:3000/',
     bundle: 'bundle.js',
   },
 };
