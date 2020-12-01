@@ -4,11 +4,14 @@
 }
 
 body {
-  margin:0px 20px 20px 20px;
   font-family: targetFont, Fallback, Helvetica, sans-serif;
 }
 
 /* Product View CSS */
+
+#omega {
+  margin-bottom: 200px;
+}
 
 .title {
   position: absolute;
@@ -21,6 +24,12 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.tag {
+  position: absolute;
+  left: 48.3%;
+  top: 25.8%;
+  z-index: 5;
+}
 .mainviewer {
   position: relative;
   width: 100%;
@@ -29,37 +38,56 @@ body {
   padding: 0px;
   z-index: 5;
 }
-.tag {
- position: absolute;
- left: 48.3%;
- top: 25.8%;
- z-index: 5;
-}
 .zoomContainer {
   position: relative;
-  height: 400px;
-  width: 400px;
-  left: 20%;
-  top: 150px;
+  height: 360px;
+  width: 360px;
+  left: 23.5%;
+  top: 130px;
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-}
-.fakescroller {
-  max-height: 398px;
-  overflow: scroll;
-  width: 200px;
 }
 .mainviewer:hover {
   transition: transform .5s ease;
   transform: scale(1.10);
 }
-.shopall {
+
+.mainImage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  z-index: 5;
+}
+.mainImageContainer {
+  position: relative;
+  height: 360px;
+  width: 360px;
+  left: 23.5%;
+  top: 130px;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.mainImage:hover {
+  transition: transform .5s ease;
+  transform: scale(1.10);
+}
+.fakescroller {
+  max-height: 400px;
+  overflow: scroll;
+  width: 150px;
+}
+
+
+#shopall {
   position: absolute;
   left: 13%;
   margin-top: 30px;
   font-size: 16px;
-  top: 80px;
+  top: 12%;
 }
 .shop {
   color: black;
@@ -73,11 +101,13 @@ body {
   font-family: 'Times New Roman', Times, serif;
   z-index: 5;
 }
+
 #buy2 {
   position: absolute;
   font-size: 14px;
   left: 50%;
   top: 25%;
+
 }
 .in-store {
   position: absolute;
@@ -86,13 +116,16 @@ body {
   left: 50.6%;
   top: 27%;
 }
+
 .price-detail {
   position: absolute;
   color: black;
   font-size: 12px;
-  left: 56.9%;
+  left: 56.7%;
   top: 28.2%;
 }
+
+
 .location {
   position: absolute;
   right: 10%;
@@ -102,10 +135,12 @@ body {
   transform: translate(0, 60px);
   z-index: 5;
 }
+
 .dropdown {
   transform: translate(10px, 66px);
   z-index: -1;
 }
+
 .pickup {
   color: darkgreen;
   font-weight: bold;
@@ -123,6 +158,7 @@ body {
   right: 21%;
   top: 90px;
   padding-top: 10px;
+
 }
 #sameday {
   position: relative;
@@ -137,6 +173,7 @@ body {
   font-weight: bolder;
   color: darkgreen;
   margin-left: 10px;
+
 }
 #deliver {
   position: relative;
@@ -148,6 +185,7 @@ body {
   padding-top: 10px;
   margin-bottom: 20px;
 }
+
 #button1 {
   position: absolute;
   background-color: rgb(204, 0, 0);
@@ -159,6 +197,7 @@ body {
   height: 25px;
   left: 130px;
   top: 11%;
+
 }
 #button2 {
   position: absolute;
@@ -171,6 +210,7 @@ body {
   right: 10px;
   height: 25px;
   top: 10%;
+
 }
 .sameday {
   width: 70px;
@@ -188,17 +228,19 @@ body {
   height: 25px;
   top: 10%;
 }
+
 .fakecarousel {
-  width: 60%;
+  width: 100%;
   margin: 0px;
 }
+
 #fakecarousel {
   position: absolute;
-  width: 200px;
   left: 13%;
   top: 20%;
   margin: 0px;
 }
+
 .text {
   color: black;
   margin-left: 10px;
@@ -206,10 +248,12 @@ body {
   font-size: 14px;
   z-index: 1;
 }
+
 .checkbox {
   position: absolute;
-  top: 175px;
+  top: 195px;
 }
+
 .allstate {
   position: relative;
   top: 90px;
@@ -224,37 +268,17 @@ body {
 }
 #plan {
   position: absolute;
-  top: 183px;
-  right: 80px;
+  top: 190px;
+  right: 76px;
 }
+
 .locationtext {
   position: absolute;
   font-size: 16px;
   margin-left: 10px;
   top: 80px;
 }
-.mainImage {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  z-index: 5;
-}
-.mainImageContainer {
-  position: relative;
-  height: 400px;
-  width: 400px;
-  left: 20%;
-  top: 150px;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-}
-.mainImage:hover {
-  transition: transform .5s ease;
-  transform: scale(1.10);
-}
+
 .ratings-bar {
   position: absolute;
   left: 49%;
@@ -266,7 +290,9 @@ body {
   top: 23%;
   font-size: 14px;
   color: grey;
+
 }
+
 .price-view-container {
   position: relative;
   top: 20px;
@@ -274,14 +300,7 @@ body {
 
 /* Q&A CSS */
 
-#service3 {
-  margin-top: 195px;
-}
-
-.p-tooltip {
-    /* Used to position the arrow */
-    position: relative;
-}
+/* Has style tag in index.html */
 
 /* Show the arrow and content when hovering the trigger element */
 

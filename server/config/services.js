@@ -63,7 +63,7 @@ module.exports = {
   },
   service5: {
     api: '/products',
-    url: 'http://18.188.253.132:3000/',
+    url: 'http://3.19.62.76:3000/',
     bundle: 'bundle.js',
   },
 };
